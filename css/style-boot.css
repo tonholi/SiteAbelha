@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/kiona-2');
 body {
+    scroll-behavior: smooth;
     background-color: rgb(211, 211, 211);
 }
 
