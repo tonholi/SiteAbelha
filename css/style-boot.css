@@ -10,7 +10,6 @@
     column-count: 2;
     column-gap: 50px;
     column-width: 250px;
-    column-rule: 1px solid blueviolet;
     margin: 50px 0px;
 }
 
@@ -23,6 +22,18 @@
     text-align: justify;
 }
 
+.row {
+    margin: 50px 0px;
+    padding: 10px 0px;
+    border: #d9d9d9 solid;
+    background-color: #d8a04d8a;
+}
+
+.col img {
+    width: 35rem;
+    padding-top: 10;
+}
+
 .carousel-caption {
     color: #888;
 }
@@ -32,7 +43,6 @@
     margin: auto;
     margin-top: 50px;
 }
-
 
 .modal-dialogue {
     width: 600px;
@@ -67,8 +77,7 @@
     font-size: 0.8rem;
 }
 
-
-#voltar-topo img{
+#voltar-topo img {
     width: 65px;
     height: 65px;
 }
@@ -103,7 +112,7 @@
     box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.1);
 }
 
-.honeycomb-cell a{
+.honeycomb-cell a {
     text-decoration: none;
 }
 
