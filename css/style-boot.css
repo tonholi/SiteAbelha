@@ -1,3 +1,12 @@
+@import url('http://fonts.cdnfonts.com/css/kiona-2');
+body {
+    background-color: rgb(211, 211, 211);
+}
+
+iframe {
+    margin: auto;
+}
+
 .navbar-brand img {
     max-height: 60px;
 }
@@ -7,6 +16,7 @@
 }
 
 #conteudo {
+    font-family: 'Kiona', sans-serif;
     column-count: 2;
     column-gap: 50px;
     column-width: 250px;
@@ -14,6 +24,7 @@
 }
 
 #conteudo h1 {
+    font-family: 'Kiona', sans-serif;
     column-span: all;
     margin-bottom: 30px;
 }
@@ -25,12 +36,14 @@
 .row {
     margin: 50px 0px;
     padding: 10px 0px;
-    border: #d9d9d9 solid;
-    background-color: #d8a04d8a;
+    border: #888888 solid;
+    background-color: #ecbc7357;
 }
 
 .col img {
-    width: 35rem;
+    min-width: 15rem;
+    max-width: 35rem;
+    margin: auto;
     padding-top: 10;
 }
 
@@ -202,6 +215,46 @@
     margin: 0 12.5px;
 }
 
+footer {
+    padding: 5px 0;
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+
+footer h2 {
+    padding: -10px;
+}
+
+footer img {
+    height: 150px;
+    margin: 10px 5px 5px;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input,
+footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    outline: none;
+    height: auto;
+}
+
 
 /****** Responsive *******/
 
@@ -216,35 +269,35 @@
         margin-right: calc(50% - 125px);
         margin-left: calc(50% - 125px);
     }
-    .honeycomb_Hidden:nth-child(3n + 5) {
+    .honeycomb_Hidden:nth-child(3n+5) {
         display: block;
     }
 }
 
 @media (min-width: 825px) and (max-width: 1100px) {
-    .honeycomb-cell:nth-child(5n + 4) {
+    .honeycomb-cell:nth-child(5n+4) {
         margin-left: calc(50% - 275px);
     }
-    .honeycomb-cell:nth-child(5n + 5) {
+    .honeycomb-cell:nth-child(5n+5) {
         margin-right: calc(50% - 275px);
     }
     .honeycomb_Hidden:nth-child(5n),
-    .honeycomb_Hidden:nth-child(5n + 3) {
+    .honeycomb_Hidden:nth-child(5n+3) {
         display: block;
     }
 }
 
 @media (min-width: 1100px) {
-    .honeycomb-cell:nth-child(7n + 5) {
+    .honeycomb-cell:nth-child(7n+5) {
         margin-left: calc(50% - 400px);
     }
-    .honeycomb-cell:nth-child(7n + 7),
-    .honeycomb-cell:nth-child(7n + 5):nth-last-child(2) {
+    .honeycomb-cell:nth-child(7n+7),
+    .honeycomb-cell:nth-child(7n+5):nth-last-child(2) {
         margin-right: calc(50% - 400px);
     }
-    .honeycomb_Hidden:nth-child(7n + 7),
-    .honeycomb_Hidden:nth-child(7n + 9),
-    .honeycomb_Hidden:nth-child(7n + 11) {
+    .honeycomb_Hidden:nth-child(7n+7),
+    .honeycomb_Hidden:nth-child(7n+9),
+    .honeycomb_Hidden:nth-child(7n+11) {
         display: block;
     }
 }

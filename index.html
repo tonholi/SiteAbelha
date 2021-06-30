@@ -29,11 +29,11 @@
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quem somos</a>
+                            <a class="nav-link" href="#quem-somos">Quem somos</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -46,7 +46,9 @@
         <ul class="honeycomb">
             <li class="honeycomb-cell">
                 <img class="honeycomb-cell_img" src="./img/abelha.jpeg">
-                <div class="honeycomb-cell_title">Abelhas</div>
+                <a href="#abelhas">
+                    <div class="honeycomb-cell_title">Abelhas</div>
+                </a>
             </li>
             <li class="honeycomb-cell">
                 <img class="honeycomb-cell_img" src="./img/pedestal V2.jpeg">
@@ -56,7 +58,7 @@
             </li>
             <li class="honeycomb-cell">
                 <img class="honeycomb-cell_img" src="./img/onde_estamos.png">
-                <a href="https://www.google.com.br/">
+                <a href="#mapa">
                     <div class="honeycomb-cell_title">Onde Estamos</div>
                 </a>
             </li>
@@ -92,7 +94,7 @@
             <div class="row">
                 <div class="col">
                     <label>
-                        <img src="./img/abelha.jpeg" class="rounded mx-auto d-block" alt="...">
+                        <img id="abelhas" src="./img/tipos de abelhas.png" class="rounded mx-auto d-block " alt="...">
                     </label>
                 </div>
 
@@ -103,15 +105,34 @@
                     <p>Uma das vantagens da criação de abelhas nativas, além das já mencionadas, é que a atividade pode ser realizada até em áreas urbanas, como por exemplo, quintal de uma residência, convivendo com pessoas e animais domésticos, desde que
                         haja vegetação na vizinhança. Essas espécies vivem em colônias compostas por muitas operárias, que são as responsáveis pela construção e pela manutenção das colmeias e, sobretudo, por uma rainha geradora de ovos, que dá origem
                         a novas abelhas. Porquanto, com ou sem ferrão, as abelhas têm função importante na natureza. São polinizadoras de plantas, permitindo a floração e a produção de sementes e frutos. Por se tratar de seres tão importantes e sensíveis,
-                        seguem alguns passos de como realizar o manejo e o cuidado com as abelhas sem ferrão; partindo desde o início, quando surge o interesse de buscar orientação, até a forma como elas se alimentam e se reproduzem.
+                        seguem alguns passos de como realizar o manejo e o cuidado com as abelhas sem ferrão; partindo desde o início, quando surge o interesse de buscar orientação, até a forma como elas se alimentam e se reproduzem.Para a implantação
+                        do HONEYBEE foram pesquisadas diversas espécies de abelhas, dentre estas, as escolhidas foram: Guarupu, Manduri, Mandaçaia, Jataí e Mirim.
                     </p>
                 </div>
             </div>
 
-            <iframe src="https://www.google.com/maps/d/embed?mid=1UHLvC9kQbbUJvI1ijsJhCEGsywyWT3DD" width="640" height="480"></iframe>
+            <div class="row">
+                <div id="quem-somos" class="col">
+                    <label>
 
+                        <h2>Espécies de abelhas sem ferrão</h2>
 
+                         <p>Uma das vantagens da criação de abelhas nativas, além das já mencionadas, é que a atividade pode ser realizada até em áreas urbanas, como por exemplo, quintal de uma residência, convivendo com pessoas e animais domésticos, desde que
+                        haja vegetação na vizinhança. Essas espécies vivem em colônias compostas por muitas operárias, que são as responsáveis pela construção e pela manutenção das colmeias e, sobretudo, por uma rainha geradora de ovos, que dá origem
+                        a novas abelhas. Porquanto, com ou sem ferrão, as abelhas têm função importante na natureza. São polinizadoras de plantas, permitindo a floração e a produção de sementes e frutos. Por se tratar de seres tão importantes e sensíveis,
+                        seguem alguns passos de como realizar o manejo e o cuidado com as abelhas sem ferrão; partindo desde o início, quando surge o interesse de buscar orientação, até a forma como elas se alimentam e se reproduzem.Para a implantação
+                        do HONEYBEE foram pesquisadas diversas espécies de abelhas, dentre estas, as escolhidas foram: Guarupu, Manduri, Mandaçaia, Jataí e Mirim.
+                    </p>
+                       
+                    </label>
+                </div>
 
+                <div class="col">
+
+                </div>
+            </div>
+
+            <iframe id="mapa" src="https://www.google.com/maps/d/embed?mid=1UHLvC9kQbbUJvI1ijsJhCEGsywyWT3DD" width="640" height="480"></iframe>
 
         </div>
 
@@ -119,20 +140,29 @@
 
     </main>
 
-    <footer>
-
-    </footer>
-
     <div id="voltar-topo">
         <a href="#">voltar ao topo<img src="./img/icon.png" alt="ícone navegação para o topo">
         </a>
     </div>
 
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
-    <footer>
+    <footer id="contato">
+
+        <h2>Entre em contato</h2>
+        <form action="" method="">
+            <input type="text" name="name" placeholder="Seu nome">
+
+            <input type="email" name="email" placeholder="Seu e-mail">
+
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+
+            <input type="submit" value="Enviar" href="index.html">
+
+        </form>
+
+        <p>Projeto desenvolvido por alunos de Análise e desenvolvimento de sistemas em parceria com Arquitetura e urbanismo</p>
 
     </footer>
 
