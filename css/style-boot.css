@@ -16,29 +16,25 @@ iframe {
     align-items: center;
 }
 
-#conteudo {
+.container {
     font-family: 'Kiona', sans-serif;
-    column-count: 2;
-    column-gap: 50px;
-    column-width: 250px;
-    margin: 50px 0px;
+    ;
 }
 
-#conteudo h1 {
-    font-family: 'Kiona', sans-serif;
-    column-span: all;
-    margin-bottom: 30px;
-}
-
-#conteudo p {
+.container p {
     text-align: justify;
+}
+
+#Pedestal {
+    width: 35rem;
+    margin-top: 20px;
 }
 
 .row {
     margin: 50px 0px;
     padding: 10px 0px;
     border: #888888 solid;
-    background-color: #ecbc7357;
+    background-color: #ecbb73;
 }
 
 .col img {
