@@ -31,7 +31,8 @@ iframe {
 }
 
 #abelhas {
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 #UNICURITIBA {
@@ -75,12 +76,6 @@ iframe {
     -o-transform: rotate(120deg);
     transform: rotate(120deg);
     cursor: pointer;
-}
-
-.imagens img {
-    width: 300px;
-    margin: 20px 50px;
-    border: 3px solid blueviolet;
 }
 
 #voltar-topo {
@@ -234,7 +229,7 @@ footer h2 {
 }
 
 footer img {
-    height: 150px;
+    height: 100px;
     margin: 10px 5px 5px;
 }
 
@@ -243,7 +238,7 @@ footer p {
 }
 
 footer form {
-    width: 400px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -260,12 +255,32 @@ footer textarea {
     height: auto;
 }
 
+iframe {
+    margin: auto;
+}
+
 
 /****** Responsive *******/
 
 @media (max-width: 550px) {
     .honeycomb-cell {
         margin: 81.25px 25px;
+    }
+    #UNICURITIBA {
+        min-width: 10rem;
+        max-width: 20rem;
+    }
+    #Pedestal {
+        min-width: 10rem;
+        max-width: 20rem;
+    }
+    iframe {
+        width: 365px;
+        height: 480px;
+    }
+    #abelhas {
+        min-width: 10rem;
+        max-width: 20rem;
     }
 }
 
